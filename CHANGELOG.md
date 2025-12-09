@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/betterhyq/npx-mcp-template/compare/v0.0.4...v0.0.5)
+
+### 🏡 Chore
+
+- 更新package.json ([c9924ef](https://github.com/betterhyq/npx-mcp-template/commit/c9924ef))
+- 更新package.json字段 ([1fd0d81](https://github.com/betterhyq/npx-mcp-template/commit/1fd0d81))
+
+### ❤️ Contributors
+
+- Heyongqi10 <heyongqi10@jd.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/betterhyq/npx-mcp-template/compare/v0.0.3...v0.0.4)
