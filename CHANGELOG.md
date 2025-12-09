@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/betterhyq/npx-mcp-template/compare/v0.0.1...v0.0.2)
+
+### 🔥 Performance
+
+- 简化代码逻辑 ([c33c3fe](https://github.com/betterhyq/npx-mcp-template/commit/c33c3fe))
+- 动态处理信息 ([ed1e421](https://github.com/betterhyq/npx-mcp-template/commit/ed1e421))
+
+### 🏡 Chore
+
+- **pkg:** 优化发布命令 ([89eac6e](https://github.com/betterhyq/npx-mcp-template/commit/89eac6e))
+- 格式化代码 ([e332e7c](https://github.com/betterhyq/npx-mcp-template/commit/e332e7c))
+
+### ❤️ Contributors
+
+- Heyongqi10 <heyongqi10@jd.com>
+
 ## v0.0.1
 
 
