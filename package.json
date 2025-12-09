@@ -17,6 +17,7 @@
 	"scripts": {
 		"build": "tsc && unbuild",
 		"start": "node ./dist/index.mjs",
+		"start:http": "node ./dist/index.mjs --http --port=4000",
 		"check": "biome check --write --unsafe"
 	},
 	"dependencies": {

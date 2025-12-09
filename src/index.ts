@@ -30,8 +30,7 @@ export const main = () => {
 	// 配置命令行参数解析
 	program
 		.option("--http", "使用 HTTP 传输模式（默认为 stdio 模式）")
-		.option("-p, --port <number>", "指定 HTTP 服务器监听端口", "3000")
-		.argument("<string>"); // 保留原有参数结构
+		.option("-p, --port <number>", "指定 HTTP 服务器监听端口", "3000");
 
 	// 解析命令行参数
 	program.parse();
