@@ -27,4 +27,4 @@ export const main = (_port: number) => {
   });
 };
 
-main(3000)
+main(3000);
