@@ -3,7 +3,12 @@
 	"mcpName": "NPX MCP 服务器",
 	"description": "Template to develop mcp server by node",
 	"version": "0.0.4",
-	"keywords": ["AI", "Agent", "MCP"],
+	"keywords": [
+		"AI",
+		"Agent",
+		"MCP"
+	],
+	"license": "MIT",
 	"type": "module",
 	"main": "./dist/index.mjs",
 	"types": "./dist/index.d.mts",
