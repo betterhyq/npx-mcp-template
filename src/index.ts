@@ -3,14 +3,11 @@
 import { program } from "commander";
 import { FastMCP } from "fastmcp";
 import { z } from "zod";
+import pkg from "../package.json";
 import { add } from "./add";
-import pkg from "../package.json"
 
 export const main = () => {
-	program
-		.name(pkg.name)
-		.description(pkg.description)
-		.version(pkg.version);
+	program.name(pkg.name).description(pkg.description).version(pkg.version);
 
 	program
 		.option("--http", "使用 HTTP 传输模式（默认为 stdio 模式）")
@@ -19,7 +16,7 @@ export const main = () => {
 
 	const { http, port } = program.opts();
 
-	const versions = pkg.version.split(".")
+	const versions = pkg.version.split(".");
 	const server = new FastMCP({
 		name: pkg.mcpName,
 		version: `${Number(versions[0])}.${Number(versions[1])}.${Number(versions[2])}`,
