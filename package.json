@@ -1,12 +1,22 @@
 {
+	"name": "@betterhyq/npx-mcp-template",
+	"version": "0.0.0",
+	"type": "module",
+	"files": [
+		"dist"
+	],
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "1.24.3",
-		"cors": "2.8.5",
-		"express": "5.2.1"
+		"fastmcp": "3.25.3",
+		"zod": "4.1.13"
 	},
 	"devDependencies": {
-		"@types/cors": "2.8.19",
-		"@types/express": "5.0.6",
-		"@types/node": "24.10.2"
-	}
+		"@types/node": "24.10.2",
+		"changelogen": "0.6.2",
+		"globals": "16.5.0",
+		"typescript": "5.9.3",
+		"vite": "7.2.7",
+		"vitest": "4.0.15"
+	},
+	"packageManager": "pnpm@10.13.1"
 }
